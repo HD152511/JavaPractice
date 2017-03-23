@@ -72,7 +72,7 @@ public class Car {
     }
     public void setPrice1(int newPrice){
     	price=newPrice;
-    }
+    } 
 
     
 

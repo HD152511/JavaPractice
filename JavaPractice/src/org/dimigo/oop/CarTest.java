@@ -15,11 +15,11 @@ package org.dimigo.oop;
  *
  *@author alber
  */
-public class CarTest {
+public class CarTest { 
 
 
 	public static void main(String[] args) {
-		Car car = new Car();
+		Car car = new Car(); 
 		System.out.println("제조사명 : "+car.getCompany());
 		System.out.println("모델명 : "+car.getModel());
 		System.out.println("색상 : "+car.getColor());
