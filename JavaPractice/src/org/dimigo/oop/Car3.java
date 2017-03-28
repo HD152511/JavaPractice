@@ -15,7 +15,7 @@ package org.dimigo.oop;
  *
  *@author alber
  */
-public class Car2 {
+public class Car3 {
 	
 	private String company="현대자동차";
 	private String model="제네시스";
@@ -23,13 +23,25 @@ public class Car2 {
 	private int maxSpeed=225;
     private int price=50000000;
     
-    public Car2(String newCompany,String newModel,String newColor, int newmaxSpeed, int newPrice){
-    	company = newCompany;
-    	model = newModel;
-    	color = newColor;
-    	maxSpeed = newmaxSpeed;
-    	price = newPrice;
+    public Car3(String company, String model, String color,int maxSpeed,int price){   	
+    	this.company=company;
+    	this.model=model;
+    	this.color=color;
+    	this.maxSpeed=maxSpeed;
+    	this.price=price;
+    	
     }
+    public Car3(String company, String model,String color,int maxSpeed){
+    	this.company=company;
+    	this.model=model;
+    	this.color=color;
+    	this.maxSpeed=maxSpeed;
+    }
+    public Car3(String company,String model,String color){
+    	this.company=company;
+    	this.model=model;
+    	this.color=color;
+    	  }
 	
 
     //getter
@@ -49,7 +61,6 @@ public class Car2 {
     	return price;
     }
     
-    
     /*public void setCompany(String newCompany){
     	company=newCompany;
     	}
@@ -64,10 +75,10 @@ public class Car2 {
     }
     public void setPrice(int newPrice){
     	price=newPrice;
-    }*/
+    }
     
     
-  /*  public void setCompany1(String newCompany){
+    public void setCompany1(String newCompany){
     	company=newCompany;
     	}
     public void setModel1(String newModel){
