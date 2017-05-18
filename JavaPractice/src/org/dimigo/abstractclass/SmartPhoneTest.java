@@ -17,7 +17,7 @@ for(SmartPhone p : phones) {
 	System.out.println(p);
 	p.turnOn();
 	p.pay();
-	p.useSpecialFunction(p);
+	p.useSpecialFunction();
 	p.turnOff();
 }
 		

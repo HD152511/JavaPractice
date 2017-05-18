@@ -23,13 +23,13 @@ public abstract class SmartPhone {
 	}
 	public abstract void pay();
 	
-public void useSpecialFunction(SmartPhone phone) {
-	if(phone==null) return;
-	else if(phone instanceof IPhone) {
-		((IPhone) phone).useAirDrop();
+public void useSpecialFunction() {
+	if(this==null) return;
+	else if(this instanceof IPhone) {
+		((IPhone) this).useAirDrop();
 	}
-	else if(phone instanceof Galaxy)
-		((Galaxy) phone).useWirelessCharging();
+	else if(this instanceof Galaxy)
+		((Galaxy) this).useWirelessCharging();
 }
 public String toString() {
 	return "모델명 : "+model+", 제조사 : "+company+", 가격 : "+String.format("%,d", price) +"원";
