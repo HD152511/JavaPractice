@@ -12,11 +12,11 @@ public class DBTest {
 		System.out.println("<< 변경 전 >>");
 		IDBManager s = IDBManager.getDBObject("SYBASE");
 		crud(s);
-		
+		System.out.println("");
 		System.out.println("<< 변경 후 >>");
 		IDBManager o = IDBManager.getDBObject("ORACLE");
 		crud(o);
 	}
-
+ 
 }
  

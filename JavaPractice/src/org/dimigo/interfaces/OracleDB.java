@@ -15,4 +15,4 @@ public class OracleDB implements IDBManager {
 		System.out.println("Oracle DB 삭제");
 	}
 
-} 
+}  

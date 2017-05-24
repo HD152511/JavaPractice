@@ -15,4 +15,4 @@ public class SybaseDB implements IDBManager{
 		System.out.println("Sybase DB 삭제");
 	}
 
-} 
+}  

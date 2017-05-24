@@ -12,12 +12,10 @@ public interface IDBManager {
 			return null;
 		}
 		if(database.equals(ORACLE_DATABASE)){
-			OracleDB O = new OracleDB();
-			return (IDBManager)O;
+			return new OracleDB();
 		}
 		else{
-			SybaseDB s = new SybaseDB();
-			return (IDBManager)s;
+			return new SybaseDB();
 		}
 	} 
 
